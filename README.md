@@ -4,17 +4,13 @@ This is set to use a Caldera form, but it can easily be modified to use any type
 
 # Usage
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 
-```
+```php
 	$form_modal = new foundation_modal_form( 'CF56cb46c389792', 'agent-form-modal', 'Contact Agent' );
 	$form_modal->output_modal();
 ```
 
-```
+```html
     <a data-reveal-id="agent-form-modal" class="button contact-agent">Contact Me</a>
 ```
 
