@@ -11,6 +11,7 @@ This is set to use a Caldera form, but it can easily be modified to use any type
 ### Instantiate Class / call output method
 
 ```php
+$form_modal = new foundation_modal_form( $form_id, $data_reveal_id, $modal_title );
 $form_modal = new foundation_modal_form( 'CF56cb46c389792', 'agent-form-modal', 'Contact Agent' );
 $form_modal->output_modal();
 ```
